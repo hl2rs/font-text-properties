@@ -24,7 +24,7 @@
 
     /* Font Stacks */
 	--heading-fonts: 'Seymour One','Impact', sans-serif;
-	--body-fonts: Lato, Arial, sans-serif;
+	--body-fonts: 'Lato', Arial, sans-serif;
 }
 
 body{
@@ -44,6 +44,9 @@ header{
 }
 
 h1, h2, h3{
+	text-align: center;
+	font-family: var(--heading-fonts);
+	font-variant: small-caps;
 	/* center align the text */
 	/* use a web font here (instructions on page) */
 	/* make the heading text all small caps style */
@@ -58,6 +61,7 @@ h2{
 h3{
 	margin: 0;
 	padding: 4px;
+	text-decoration: solid underline var(--mint) 4px;
 	/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
 }
 
