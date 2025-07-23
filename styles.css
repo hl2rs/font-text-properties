@@ -47,9 +47,6 @@ h1, h2, h3{
 	text-align: center;
 	font-family: var(--heading-fonts);
 	font-variant: small-caps;
-	/* center align the text */
-	/* use a web font here (instructions on page) */
-	/* make the heading text all small caps style */
 }
 
 h2{
@@ -76,15 +73,15 @@ nav ul{
 }
 
 nav a{
-	/* make these display as block level elements */
+	display: block;
 	margin: 1rem auto;
 	padding: 1rem;
 	background-color: var(--tiffany);
-	/* set the font color to #222 (--dk-gray) */
-	/* center align the text */
-	/* remove the underline */
-	/* make the font's size 1.2rem */
-	/* make the font bolder (600) */
+	color: var(--dk-gray);
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 600;
 }
 
 nav a:hover{
@@ -105,9 +102,9 @@ section{
 }
 
 p{
-	/* set a max-width of 55 characters */
-	/* add an indent on the first line of 2rem */
-	/* center those paragraphs (not the text) on the page */
+	max-width: 55ch;
+	text-indent:  2rem;
+	margin: 0 auto;
 	padding: 0.5rem;
 }
 
@@ -120,12 +117,12 @@ a:hover{
 }
 
 dl, ol, main ul{
-	/* limit the width of these lists to 55 characters */
+	max-width: 55ch;
 	margin: 1rem auto;
 }
 
 dt{
-	/* make this font display in bold weight */
+	font-weight: bold;
 }
 
 dt::before{
