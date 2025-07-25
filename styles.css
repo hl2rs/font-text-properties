@@ -59,7 +59,6 @@ h3{
 	margin: 0;
 	padding: 4px;
 	text-decoration: solid underline var(--mint) 4px;
-	/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
 }
 
 nav{
